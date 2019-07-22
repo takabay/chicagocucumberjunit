@@ -8,7 +8,6 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import pages.GasMilagePages;
 import utilities.Config;
-import utilities.Driver;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -25,9 +24,7 @@ public class GasMilageCalculator {
 
     @Before
     public void setUp()throws Exception{
-        int b =6;
-        driver = Driver.getDriver();
-      driver.get("https://www.calculator.net/gas-mileage-calculator.html");
+        driver.get("https://www.calculator.net/gas-mileage-calculator.html");
       inputStream = new FileInputStream(Config.getProperty("gasmileagedata"));
        workbook = new XSSFWorkbook(inputStream);
        worksheet = workbook.getSheet("Sheet1");
