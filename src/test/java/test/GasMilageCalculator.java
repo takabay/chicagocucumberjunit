@@ -25,6 +25,7 @@ public class GasMilageCalculator {
 
     @Before
     public void setUp()throws Exception{
+        int b =6;
         driver = Driver.getDriver();
       driver.get("https://www.calculator.net/gas-mileage-calculator.html");
       inputStream = new FileInputStream(Config.getProperty("gasmileagedata"));
