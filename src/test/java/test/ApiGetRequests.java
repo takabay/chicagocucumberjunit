@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.*;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class HRRestApiGetRequests {
+public class ApiGetRequests {
     /*
   When I send a Get request to Rest Url http:://34.223.219.142:1212/ords/hr/employees
   Then response status should be 200

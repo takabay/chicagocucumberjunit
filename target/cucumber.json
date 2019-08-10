@@ -1,0 +1,137 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 580370,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Post an Employee and Verify in UI",
+        "description": "",
+        "id": "employee-rest-api-requests;post-an-employee-and-verify-in-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 14908,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24160,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Content type and Accept type is Json",
+            "match": {
+              "location": "ApiPOstEmployee.content_type_and_Accept_type_is_Json()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5655,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I post a new Employee with \"random\" id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 27
+                }
+              ],
+              "location": "ApiPOstEmployee.i_post_a_new_Employee_with_id(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3598,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Status code is 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 15
+                }
+              ],
+              "location": "ApiPOstEmployee.Status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3598,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "response Json should contain Employee info",
+            "match": {
+              "location": "ApiPOstEmployee.response_Json_should_contain_Employee_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I am on DeptEmpPage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I search for Employee with \"random\" id",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "UI search results must match API post employee data",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiPost"
+          }
+        ]
+      }
+    ],
+    "name": "Employee Rest Api requests",
+    "description": "",
+    "id": "employee-rest-api-requests",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/API/post.employee.feature",
+    "tags": []
+  }
+]
