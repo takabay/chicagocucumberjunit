@@ -1,4 +1,4 @@
-@youtube
+@youtube, @smoke
 Feature:YouTube search
 
   Background: User is on the homepage and is able to see searchbox and search button

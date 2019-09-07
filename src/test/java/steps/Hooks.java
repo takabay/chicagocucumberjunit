@@ -6,6 +6,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import utilities.DButil;
 import utilities.Driver;
 
 public class Hooks {
@@ -18,7 +19,15 @@ public class Hooks {
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
             final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
-            scenario.embed(screenshot,"image/png");
+            scenario.embed(screenshot, "image/png");
         }
     }
-}
+        @Before(value = "@db")
+           public void setUpDbConnection(){
+          //  DButil.creatConnnection();
+        }
+        @After(value = "@db")
+    public void closeDBConnection(){
+            DButil.destroy();
+        }
+    }

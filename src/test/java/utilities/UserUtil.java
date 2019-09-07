@@ -1,5 +1,4 @@
 package utilities;
-
 import java.util.Map;
 
 public class UserUtil {

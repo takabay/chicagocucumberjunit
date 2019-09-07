@@ -1,5 +1,7 @@
-@datatableSO
+@datatableSO, @smoke
 Feature: Testing datatables website
+
+# cmtr+alt+l to format file in intellij
 
   Scenario Outline: Testing adding new emoloyee to the table
 

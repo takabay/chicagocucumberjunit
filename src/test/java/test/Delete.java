@@ -2,6 +2,7 @@ package test;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,6 +16,12 @@ public class Delete {
         map.put("email","EM"+24);
         map.put("phone_number","202.123.4567");
         map.put("salary", 24000);
-        System.out.println(map);
+        ArrayList list = new ArrayList();
+        String a = "jani";
+        list.add(map);
+        list.add(a);
+
+
+        System.out.println(list.size());
     }
 }
