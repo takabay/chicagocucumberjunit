@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e3077bc8-15e3-463d-a2b5-db42b4398c7b" name="Default Changelist" comment="API with cucumber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/UserUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/datatableSO.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/datatableSO.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/wiki.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/wiki.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/youtube.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/youtube.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumberReports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumberReports/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumberReports/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumberReports/embedded1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumberReports/embedded2.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumberReports/embedded2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumberReports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumberReports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/datatableSO.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/datatableSO.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/wiki.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/wiki.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/youtube.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/youtube.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="493">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -560,7 +540,7 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" x="22" y="354" width="1695" height="232" id="Run" maximized="true" order="5" weight="0.29265255" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.72851807" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26400995" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.18929017" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.12328767" />
@@ -1045,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="493">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
