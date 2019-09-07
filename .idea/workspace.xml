@@ -107,7 +107,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="56">
               <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -254,7 +254,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="159" />
     <option name="width" value="1586" />
     <option name="height" value="1007" />
@@ -544,8 +544,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1753" height="954" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1753" height="954" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5011792" side_tool="true" weight="0.1543901" />
       <window_info id="Image Layers" order="1" />
@@ -553,7 +552,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5011792" side_tool="true" weight="0.1543901" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49882075" visible="true" weight="0.15556864" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49882075" visible="true" weight="0.15556864" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.0996264" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39976415" />
@@ -561,7 +560,7 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" x="22" y="354" width="1695" height="232" id="Run" maximized="true" order="5" weight="0.29265255" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.0373599" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.72851807" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.18929017" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.12328767" />
@@ -1046,7 +1045,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="56">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
